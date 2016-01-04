@@ -1,0 +1,15 @@
+//
+//  PZPrefixHeader.pch
+//  J3PZ
+//
+//  Created by 千锋 on 16/1/4.
+//  Copyright © 2016年 1111111111. All rights reserved.
+//
+
+#ifndef PZPrefixHeader_pch
+#define PZPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PZPrefixHeader_pch */
