@@ -16,6 +16,10 @@
 		BC8DB6201C3A443A0069D2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC8DB61E1C3A443A0069D2DB /* LaunchScreen.storyboard */; };
 		BC8DB62B1C3A443A0069D2DB /* J3PZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8DB62A1C3A443A0069D2DB /* J3PZTests.m */; };
 		BC8DB6361C3A443A0069D2DB /* J3PZUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8DB6351C3A443A0069D2DB /* J3PZUITests.m */; };
+		BC8DB65A1C3A4D5D0069D2DB /* PZRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8DB6591C3A4D5D0069D2DB /* PZRootTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		BC8DB65D1C3A4E320069D2DB /* PZHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8DB65C1C3A4E320069D2DB /* PZHomeTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC8DB6601C3A4E600069D2DB /* PZInstectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8DB65F1C3A4E600069D2DB /* PZInstectViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC8DB6631C3A4E810069D2DB /* PZMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8DB6621C3A4E810069D2DB /* PZMyViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		BC8DB6351C3A443A0069D2DB /* J3PZUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = J3PZUITests.m; sourceTree = "<group>"; };
 		BC8DB6371C3A443A0069D2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC8DB6461C3A45FB0069D2DB /* PZPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZPrefixHeader.pch; sourceTree = "<group>"; };
+		BC8DB6581C3A4D5D0069D2DB /* PZRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZRootTabBarController.h; sourceTree = "<group>"; };
+		BC8DB6591C3A4D5D0069D2DB /* PZRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZRootTabBarController.m; sourceTree = "<group>"; };
+		BC8DB65B1C3A4E320069D2DB /* PZHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZHomeTableViewController.h; sourceTree = "<group>"; };
+		BC8DB65C1C3A4E320069D2DB /* PZHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZHomeTableViewController.m; sourceTree = "<group>"; };
+		BC8DB65E1C3A4E600069D2DB /* PZInstectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZInstectViewController.h; sourceTree = "<group>"; };
+		BC8DB65F1C3A4E600069D2DB /* PZInstectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZInstectViewController.m; sourceTree = "<group>"; };
+		BC8DB6611C3A4E810069D2DB /* PZMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZMyViewController.h; sourceTree = "<group>"; };
+		BC8DB6621C3A4E810069D2DB /* PZMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZMyViewController.m; sourceTree = "<group>"; };
 		CC9A129C31F13250F21033FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -204,6 +216,8 @@
 		BC8DB6491C3A482E0069D2DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BC8DB65B1C3A4E320069D2DB /* PZHomeTableViewController.h */,
+				BC8DB65C1C3A4E320069D2DB /* PZHomeTableViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -235,6 +249,8 @@
 		BC8DB64D1C3A482E0069D2DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BC8DB65E1C3A4E600069D2DB /* PZInstectViewController.h */,
+				BC8DB65F1C3A4E600069D2DB /* PZInstectViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -266,6 +282,8 @@
 		BC8DB6511C3A482E0069D2DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BC8DB6611C3A4E810069D2DB /* PZMyViewController.h */,
+				BC8DB6621C3A4E810069D2DB /* PZMyViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +315,8 @@
 		BC8DB6551C3A482E0069D2DB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BC8DB6581C3A4D5D0069D2DB /* PZRootTabBarController.h */,
+				BC8DB6591C3A4D5D0069D2DB /* PZRootTabBarController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -506,8 +526,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC8DB61B1C3A443A0069D2DB /* J3PZ.xcdatamodeld in Sources */,
+				BC8DB65A1C3A4D5D0069D2DB /* PZRootTabBarController.m in Sources */,
+				BC8DB65D1C3A4E320069D2DB /* PZHomeTableViewController.m in Sources */,
+				BC8DB6631C3A4E810069D2DB /* PZMyViewController.m in Sources */,
 				BC8DB6121C3A443A0069D2DB /* AppDelegate.m in Sources */,
 				BC8DB60F1C3A443A0069D2DB /* main.m in Sources */,
+				BC8DB6601C3A4E600069D2DB /* PZInstectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
